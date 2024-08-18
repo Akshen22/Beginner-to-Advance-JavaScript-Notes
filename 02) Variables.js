@@ -119,4 +119,16 @@ console.log(noOfBurgers);
 const noofburgers = 12;
 console.log(noofburgers);
 
-5) 
+5) Naming Variables - camelCase:
+For variables containing multiple words, we write all the words together without spaces.
+To distinguish each word, we capitalize the first alphabet of all the words, except for the first word. 
+This is known as camelCase.
+  
+Let's take a look at another example:
+const lengthOfBox = 120;
+console.log(lengthOfBox);
+
+Here are some other examples of names using camelCase- 
+firstName, lastName, temperatureInCelsius, fruitsWithRedColor
+
+6) 
