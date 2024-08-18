@@ -149,4 +149,36 @@ The second part of assigning the created (declared) variable an initial value is
 c) We will be writing declaring a variable instead of creating a variable from now on.
 d) We should also keep in mind that when declaring a variable using the const keyword, we must always assign it a value right away.
 
-7)   
+7)  let:
+
+a) We should use const by default to declare all variables. 
+However, if we know that the value of the variable needs to be changed later, we need to declare the variable using the let keyword.
+
+Example:
+let speed=40;
+console.log(speed);
+
+speed=56;
+console.log(speed);
+
+In the above example:
+We declared the variable speed using let keyword and assigned the value 40 to it.
+Then we changed the value of speed to 56 with the statement speed = 56.
+
+b) When declaring a variable using the let keyword, it is not necessary to assign it a value. 
+We can assign a value to let after it is declared.
+
+Example:
+let length; // declaration
+length = 123; // initialization
+console.log(length);
+
+c) It is important to note that until a value is assigned to the variable declared using let, 
+it will contain the value undefined.
+
+Example:
+let length;
+console.log(length); // it will print 'undefined' when the code is run
+
+length = 123;
+console.log(length);
