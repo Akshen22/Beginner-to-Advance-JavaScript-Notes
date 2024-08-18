@@ -131,4 +131,22 @@ console.log(lengthOfBox);
 Here are some other examples of names using camelCase- 
 firstName, lastName, temperatureInCelsius, fruitsWithRedColor
 
-6) 
+6) const (constant): used to create a variable whose value is not intended to be changed at all, once it is created.
+If we try to change the value of a variable created using the const keyword, we will get an error.
+
+Example:
+const speed = 40;
+console.log(speed);
+
+speed = 56; // This will cause an error when the code is run
+console.log(speed);
+
+The first line in the above example const speed = 40; can be split into two parts.
+a) declaration: const speed
+This part where we create the variable is called a declaration.
+b) initialization: = 40;
+The second part of assigning the created (declared) variable an initial value is called initialization.
+c) We will be writing declaring a variable instead of creating a variable from now on.
+d) We should also keep in mind that when declaring a variable using the const keyword, we must always assign it a value right away.
+
+7)   
