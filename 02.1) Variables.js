@@ -181,4 +181,29 @@ console.log(length); // it will print 'undefined' when the code is run
 length = 123;
 console.log(length);
 
-8) 
+8) Challenges:
+i) Create two variables fruitName and fruitQuantity. Store value apple to fruitName and 5 to fruitQuantity.
+Later change the value of fruitQuantity to 6.
+
+Solution:
+const fruitName = "apple";
+let fruitQuantity = 5;
+
+fruitQuantity = 6;
+
+ii) In the code given below, create a variable named fullName and assign it a value Sam Smith.
+Create two other variables named timeInMinutes and runs with the initial value of 0.
+Then change the value of timeInMinutes to 50 and runs to 100.
+At the end, print the values of fullName, timeInMinutes and runs in that order.
+
+Solution:
+const fullName = "Sam Smith";
+let timeInMinutes = 0;
+let runs = 0;
+
+timeInMinutes = 50;
+runs =  100;
+
+console.log(fullName);
+console.log(timeInMinutes);
+console.log(runs);
