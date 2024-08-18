@@ -150,7 +150,6 @@ c) We will be writing declaring a variable instead of creating a variable from n
 d) We should also keep in mind that when declaring a variable using the const keyword, we must always assign it a value right away.
 
 7)  let:
-
 a) We should use const by default to declare all variables. 
 However, if we know that the value of the variable needs to be changed later, we need to declare the variable using the let keyword.
 
@@ -179,6 +178,7 @@ it will contain the value undefined.
 Example:
 let length;
 console.log(length); // it will print 'undefined' when the code is run
-
 length = 123;
 console.log(length);
+
+8) 
