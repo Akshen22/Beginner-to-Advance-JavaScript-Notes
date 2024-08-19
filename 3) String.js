@@ -87,6 +87,7 @@ console.log(`Your balance is ${totalIncome - totalExpense}`);
 inserting both values in only one: {}*/
 
 5) Multi-line Template Strings:
+a) Example:
 const itemList = `Fruits:
   Apple
   Mango
@@ -95,3 +96,22 @@ const itemList = `Fruits:
 `;
 
 console.log(itemList);
+
+b) Challenge:
+get output:
+"Take risks in your life;
+
+If you win, you can lead!
+If you lose, you can guide!"
+
+— Swami Vivekananda
+
+Solution:
+const quote = `"Take risks in your life;
+
+If you win, you can lead!
+If you lose, you can guide!"
+
+— Swami Vivekananda`;
+
+console.log(quote);
