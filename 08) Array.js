@@ -23,7 +23,9 @@ watermelon
 Log the value of both arrays to the console.
 
 Ans.} 
-const numbers=[1,2,3,4,5] 
-const fruits ("apple", "banana", "cherry", watermelon`);
+const numbers=[1,2,3,4,5];
+const fruits=["apple", "banana", "cherry", "watermelon"];
 
-console.log(numbers, array);
+console.log(numbers, fruits);
+
+3) 
