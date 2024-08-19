@@ -16,7 +16,7 @@ console.log(fullName);
 const book = `The Newest Dragon Stories`;
 console.log(book);
 
-const someRandomSentence = `You can be a great programmer!`; //below esc button on keyboard: `` 
+const someRandomSentence = `You can be a great programmer!`; //below esc button on keyboard: ``, known as backticks! 
 console.log(someRandomSentence);
 
 //We can see that using single quotes or double quotes for creating strings makes no difference. 
@@ -86,4 +86,12 @@ console.log(`Your balance is ${totalIncome - totalExpense}`);
 /*Above, we are using string interpolation to insert the value of an expression into a template string.
 inserting both values in only one: {}*/
 
-5) 
+5) Multi-line Template Strings:
+const itemList = `Fruits:
+  Apple
+  Mango
+  Banana
+  Orange
+`;
+
+console.log(itemList);
