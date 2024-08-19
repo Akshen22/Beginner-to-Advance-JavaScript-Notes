@@ -26,6 +26,10 @@ Store the average speed to a variable called averageSpeed, and then log it to th
 The Average speed of Team India was [Average Speed] meters per second.
 
 Solution:
+const averageSpeedEve = 42;
+const averageSpeedSam = 43;
+const averageSpeedRenu = 39;
 
+const averageSpeed = (averageSpeedEve + averageSpeedSam + averageSpeedRenu) / 3;
 
-
+console.log(`The Average speed of Team India was ${averageSpeed} meters per second.`)
