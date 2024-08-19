@@ -22,4 +22,26 @@ const pinCode = 2255;
 
 console.log(phoneNumber, pinCode);
 
-2) 
+2) NaN:
+In JavaScript, NaN stands for Not a Number. 
+If we perform an arithmetic operation on a value that is not a number, we get NaN as the result.
+
+Example:
+const personID = "123abc";
+const product = personID * 2;
+console.log(product);
+
+3) Increase or Decrease a Number by One:
+a) Increment:
+We can use ++ to increment the value of a number by 1.
+
+b) Decrement:
+We can use -- to decrement the value of a number by 1.
+
+c) Example:
+let firstNumber = 45; //will use let, as it's changes & const doesn't!
+let secondNumber = 45;
+firstNumber++;
+secondNumber--;
+
+console.log(firstNumber, secondNumber);
