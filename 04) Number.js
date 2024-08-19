@@ -81,5 +81,3 @@ Display the remainder of division of number by 2.
 Solution:
 let number = 683;
 console.log(number % 2);
-
-5) 
