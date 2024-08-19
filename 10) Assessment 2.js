@@ -61,3 +61,6 @@ Print out the attendance percentage of students with even roll numbers in the fo
 The attendance percentage of roll number: 2 is [attendance percentage value], roll number: 4 is [attendance percentage value], ... and roll number: 10 is [attendance percentage value].
 
 Solution:
+const attendancePercentages = ["68", "44", "83", "78", "91", "33", "57", "89", "80", "32"];
+
+console.log(`The attendance percentage of roll number: 2 is ${attendancePercentages[1]}, roll number: 4 is ${attendancePercentages[3]}, roll number: 6 is ${attendancePercentages[5]}, roll number: 8 is ${attendancePercentages[7]} and roll number: 10 is ${attendancePercentages[9]}.`)
