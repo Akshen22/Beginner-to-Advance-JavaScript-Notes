@@ -60,3 +60,38 @@ const sports = ["Football", "Cricket", "Basketball"];
 sports[1] = "Hockey";
 
 console.log(sports);
+
+6) Array Indexes:
+In JavaScript, the elements do not have to be stored in consecutive indexes. 
+We can also have, for example, an array with elements in non-consecutive indexes: 0, 1, 2, and then 7, 
+as shown in the example given below:
+
+const names = ["Oliver", "Adam", "Eve"];
+
+console.log(names[0]);
+console.log(names[1]);
+console.log(names[2]);
+
+names[7] = "Sam";
+console.log(names[7]);
+
+console.log(names);
+
+7) Mixing Different Data Types in Array:
+const name = "Parker";
+const mixedArray = [1, "hello", name, true, null, undefined];
+
+const arrayOfArrays =[
+  [1, 2, 3, 4, 5],
+  ["Peter", "Mary", "May", "Ben"],
+  [true, false, true, false]
+];
+
+const arrayOfObjects = [
+  {one: 1, two: 2},
+  {fruit: "apple", vegetable: "onion"}
+];
+
+console.log(mixedArray);
+console.log(arrayOfArrays);
+console.log(arrayOfObjects);
