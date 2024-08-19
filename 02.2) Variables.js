@@ -95,4 +95,17 @@ const numberOfClasses = 10;
 console.log("Total number of boys and girls:")
 console.log((numberOfBoysInOneClass + numberOfGirlsInOneClass) * numberOfClasses);
 
-16) 
+16) Checking Equality:
+
+a) We can use the === operator to check if two values are equal. 
+Consider the following example:
+console.log(9 === 9); //9 === 9 results in true because they are the same value.
+console.log(9 === "9"); //9 === "9" results in false because one is a number and the other is a string. They are not equal.
+
+b) We can also use the === operator to check the value of variables.
+const sum = 3 + 9;
+console.log(sum === 10); //false
+const product = 3 * 4; 
+console.log(sum === product); //true
+
+17) 
