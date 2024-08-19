@@ -121,4 +121,40 @@ const isEqual = firstNumber === secondNumber;
 
 console.log(isEqual);
 
-18) 
+18) Naming Convention:
+a) don't use 1 letter variable, as manier times, it does create confusion!
+Example:
+const l = 120;
+console.log(l);
+
+Correct:
+const length = 120;
+console.log(length);
+
+b) if want 120cm, then?
+will use string instead of number!
+
+const length = "120cm";
+console.log(length);
+
+19) changing data type:
+a) let lengthOfBox = 120;
+console.log(lengthOfBox); //120
+
+lengthOfBox = "120cm";
+console.log(lengthOfBox); //120cm
+
+console.log("Length of box in meters");
+console.log(lengthOfBox * 100); //no output!
+
+b) in the above code, we successfully changed the data type! but are facing difficulties in calculation; so will do:
+const lengthOfBox = 120;
+console.log(lengthOfBox);
+
+const lengthOfBoxWithUnit = "120cm";
+console.log(lengthOfBoxWithUnit);
+
+console.log("Length of box in meters");
+console.log(lengthOfBox * 100);
+
+//here, there's no confusion, as we changed variable name to get correct solution!
