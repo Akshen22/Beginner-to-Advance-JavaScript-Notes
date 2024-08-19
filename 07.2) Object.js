@@ -43,7 +43,10 @@ delete person.age;
 delete person[`isAdmin`];
 console.log(person);
 
+16) Object Property Shorthand:
 
+
+17) Object Naming Conventions:
 
 
 
