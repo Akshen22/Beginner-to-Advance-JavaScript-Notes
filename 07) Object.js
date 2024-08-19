@@ -133,5 +133,18 @@ const results = {
 console.log(results["math-geometry"], results["math-algebra"])
 
 10) Add Object Property using Bracket Notation:
+Similarly, to add value in the key where there's a number & a special character, will use: []
 
+Example:
+const subjects = {
+  101: "Physics",
+  102: "Biology",
+  103: "Chemistry"
+};
 
+subjects[104] = "Computer";
+subjects[21 * 5] = "Mathematics"; // Same as subjects[105] = "Mathematics"
+
+console.log(subjects);
+
+11) 
