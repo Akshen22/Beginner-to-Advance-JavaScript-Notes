@@ -52,3 +52,11 @@ Example:
 const vegetables = ["corn", "carrot", "potato"];
 vegetables[3] = "beetroot";
 console.log(vegetables);
+
+5) Updating Array Element:
+We are updating the value of the second element from "Cricket" to "Hockey".
+
+const sports = ["Football", "Cricket", "Basketball"];
+sports[1] = "Hockey";
+
+console.log(sports);
