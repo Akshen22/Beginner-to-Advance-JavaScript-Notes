@@ -108,4 +108,17 @@ console.log(sum === 10); //false
 const product = 3 * 4; 
 console.log(sum === product); //true
 
-17) 
+17) Challenge:
+Create a variable named firstNumber and assign it the value of 4.
+Create another variable named secondNumber and assign it the result of subtracting 6 from 10, you can use the expression 10 - 6.
+Create a third variable named isEqual to store the result of comparing whether firstNumber is equal to secondNumber or not.
+Print the value of isEqual to the console.
+
+Solution:
+const firstNumber = 4;
+const secondNumber = 10-6;
+const isEqual = firstNumber === secondNumber;
+
+console.log(isEqual);
+
+18) 
