@@ -95,3 +95,33 @@ const arrayOfObjects = [
 console.log(mixedArray);
 console.log(arrayOfArrays);
 console.log(arrayOfObjects);
+
+8) Choose appropriate data type to store the following details of a movie:
+
+Key	Value
+name	"Unbelievable"
+genre	"Crime", "Drama"
+cast	"Lisa Cholodenko", "Michael Dinner", "Susannah Grant", "Merritt Wever"
+imdbRating	6
+Then update the IMDB rating of the movie to be 10.
+
+Log to the console an array with all the details of the movie. In a way that only values are printed.
+
+Solution:
+let movie = {
+    name: "Unbelievable",
+    genre: ["Crime", "Drama"],
+    cast: ["Lisa Cholodenko", "Michael Dinner", "Susannah Grant", "Merritt Wever"],
+    imdbRating: 6
+};
+
+movie.imdbRating = 10;
+
+let movieDetails = [
+    movie.name,
+    movie.genre,  // Include genre as an array
+    movie.cast,   // Include cast as an array
+    movie.imdbRating
+];
+
+console.log(movieDetails);
