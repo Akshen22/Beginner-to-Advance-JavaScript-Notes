@@ -39,4 +39,22 @@ const fullName = firstName + " " + lastName;
 
 console.log(fullName);
 
-3) 
+3) Template Strings:
+a) simple way:
+const firstNum = 2;
+const secondNum = 3;
+const result = firstNum + secondNum;
+
+console.log("Adding " + firstNum + " and " + secondNum + " gives " + result);
+
+b) using template string:
+const firstNum = 2;
+const secondNum = 3;
+const result = firstNum + secondNum;
+
+console.log(`Adding ${firstNum} and ${secondNum} gives ${result}`);
+
+//Template strings are enclosed within backticks ` instead of single or double quotes. 
+// We don't need to use '+' operator to concatenate strings.
+
+4) 
