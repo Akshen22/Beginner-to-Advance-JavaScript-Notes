@@ -63,4 +63,15 @@ secondNumber--;
 let result = (firstNumber===secondNumber);
 console.log(result);
 
-4) 
+4) Remainder:
+We can use % to get the remainder. 
+It returns the remainder after the division of the value on the left of % by the value on the right of %.
+
+Example:
+a) console.log(15 % 3);
+--> 0 // Remainder
+
+b) console.log(16 % 3);
+--> 1 //Remainder
+
+5) 
