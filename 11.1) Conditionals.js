@@ -51,3 +51,34 @@ This is the reason why the code executes and we can see the code-block inside th
 
 4) else statement:
 
+const number = 7;
+
+if (number % 2 === 0) {
+  console.log("number is even");
+} else {
+  console.log("number is odd");
+}
+
+In this code, we are provided with details of a participant.
+Your task is to modify the code to achieve the following console log output:
+If the participant has the role of admin, the message should be: [Participant Name] has access to the admin area..
+If the participant has a different role, the message should be: [Participant Name] has access to the public area.
+
+Solution:
+const participant = {
+  name: "Tommy",
+  role: "guest"
+};
+
+if (participant.role==="admin") {
+  console.log(`${participant.name} has access to the admin area.`)
+}
+else {
+  console.log(`${participant.name} has access to the public area.`)
+}
+
+5) else if Statement:
+The else if statement is used along with the if and else statements. 
+It is used to execute blocks of code conditionally when there are more than two conditions.
+
+  
