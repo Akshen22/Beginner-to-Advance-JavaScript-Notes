@@ -147,4 +147,17 @@ subjects[21 * 5] = "Mathematics"; // Same as subjects[105] = "Mathematics"
 
 console.log(subjects);
 
-11) 
+11) Update Object Property using Bracket Notation:
+Let's use the bracket notation to update the value of 103 key to "Mathematics" in the subjects object.
+
+const subjects = {
+  101: "Physics",
+  102: "Biology",
+  103: "Chemistry"
+};
+
+subjects[103] = "Mathematics";
+
+console.log(subjects);
+
+12) 
