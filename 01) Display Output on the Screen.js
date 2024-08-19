@@ -1,4 +1,6 @@
-1) comments: /* */
+1) comments: 
+a) single line comment: //
+b) double line comment: /* */
 
 2) Showing Message in console:
 In JavaScript, content just doesn't appear on the screen by itself. 
