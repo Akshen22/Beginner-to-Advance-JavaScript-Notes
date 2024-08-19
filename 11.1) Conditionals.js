@@ -1,0 +1,53 @@
+1) Truthy and Falsy Values:
+Step to convert values of any data type to boolean. 
+We can use Boolean() to convert any value to a boolean value.
+
+const name = "Sam Smith";
+console.log(Boolean(name));
+
+const age = 32;
+console.log(Boolean(age));
+
+const experience = 0;
+console.log(Boolean(experience));  
+
+/*Values such as the number 0, false, null, undefined, NaN, and the empty string "", will get converted to false. 
+These values are called falsy values, rest are truly values.*/
+
+2) if Statement:
+
+Example 1:
+const age = 12;
+const votingAge = 18;
+
+if (age < votingAge) {
+  console.log("Person is not eligible to vote");
+}
+//true, so there's output!
+
+Example 2:
+const age = 12;
+const votingAge = 18;
+
+if (age >= votingAge) {
+  console.log("Person is eligible to vote");
+}
+// false, so no output!
+
+3) if statement condition:
+
+const employee = {
+  name: "Sam"
+};
+
+if (employee.name) {
+  console.log(`Name of the employee is ${employee.name}.`);
+};
+
+In the above example, we see that the condition given to the if statement is not a logical operation. 
+employee.name evaluates to "Sam", which is not an operation, but a String We know that String in javascript is a truthy value.
+
+This is the reason why the code executes and we can see the code-block inside the if statement runs and the console statement is printed.
+
+4) else statement:
+
