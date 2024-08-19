@@ -160,4 +160,8 @@ subjects[103] = "Mathematics";
 
 console.log(subjects);
 
-12) 
+12) Get Object Keys - Object.keys():
+
+
+
+
