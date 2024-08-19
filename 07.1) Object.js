@@ -159,9 +159,3 @@ const subjects = {
 subjects[103] = "Mathematics";
 
 console.log(subjects);
-
-12) Get Object Keys - Object.keys():
-
-
-
-
