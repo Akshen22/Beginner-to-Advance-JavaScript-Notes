@@ -28,4 +28,21 @@ const fruits=["apple", "banana", "cherry", "watermelon"];
 
 console.log(numbers, fruits);
 
-3) 
+3) Reading from Array:
+Each element of an array has a number associated with it starting from 0 and is known as the index of that element. 
+It is used to indicate the position of an element within the array. That is why we say an array is indexed.
+
+Example 1:
+const fruits = ["Apple", "Orange", "Banana", "Mango", "Cherry"];
+
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);
+console.log(fruits[3]);
+console.log(fruits[4]);
+
+Example 2:
+const fruits = ["Apple", "Orange", "Banana", "Mango", "Cherry"];
+
+const result = (`Second fruit is ${fruits[1]}`);
+console.log(result);
