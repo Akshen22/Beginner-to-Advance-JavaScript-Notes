@@ -74,4 +74,25 @@ const markScoredBySam = 11;
 const avg = (markScoredByHarry + markScoredByRon + markScoredBySam) / 3;
 console.log(avg);
 
-15) 
+15) Expressions and Parentheses:
+--> Example:
+const numberOfBoysInOneClass = 30;
+const numberOfGirlsInOneClass = 20;
+const numberOfClasses = 10;
+
+console.log("Total number of boys and girls:")
+console.log(numberOfBoysInOneClass + numberOfGirlsInOneClass * numberOfClasses);
+
+In the expression `numberOfBoysInOneClass + numberOfGirlsInOneClass * numberOfClasses`, the multiplication (*) is done before addition (+) due to operator precedence, resulting in 30 + (20 * 10) = 230. 
+To force addition first, use parentheses: `(numberOfBoysInOneClass + numberOfGirlsInOneClass) * numberOfClasses`, giving (30 + 20) * 10 = 500. 
+Parentheses have the highest precedence and ensure the desired order of operations.
+
+Correct:
+const numberOfBoysInOneClass = 30;
+const numberOfGirlsInOneClass = 20;
+const numberOfClasses = 10;
+
+console.log("Total number of boys and girls:")
+console.log((numberOfBoysInOneClass + numberOfGirlsInOneClass) * numberOfClasses);
+
+16) 
