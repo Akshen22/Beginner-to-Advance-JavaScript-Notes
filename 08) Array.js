@@ -46,3 +46,9 @@ const fruits = ["Apple", "Orange", "Banana", "Mango", "Cherry"];
 
 const result = (`Second fruit is ${fruits[1]}`);
 console.log(result);
+
+4) Adding to Array:
+Example:
+const vegetables = ["corn", "carrot", "potato"];
+vegetables[3] = "beetroot";
+console.log(vegetables);
