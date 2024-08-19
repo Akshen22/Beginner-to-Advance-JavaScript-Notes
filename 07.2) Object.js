@@ -31,7 +31,20 @@ const person = {
 const result = Object.entries(person);
 console.log(result);
 
-15) 
+15) Remove property from object: used to delete a property from an object!
+
+const person = {
+  fullName: "Sam Smith",
+  age: 37,
+  isAdmin: true
+};
+
+delete person.age;
+delete person[`isAdmin`];
+console.log(person);
+
+
+
 
 
 
