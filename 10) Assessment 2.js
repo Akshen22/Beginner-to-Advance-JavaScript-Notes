@@ -55,3 +55,9 @@ const officeDetails = {
 console.log(`${officeDetails.name} is from ${officeDetails.city}, ${officeDetails.state} in ${officeDetails.country}. Their pincode/zipcode is ${officeDetails.pinOrZipCode}.`)
 
 3) Even Roll Call:
+Here is a list of attendance percentages of students from roll-numbers 1-10 respectively:
+["68", "44", "83", "78", "91", "33", "57", "89", "80", "32"]
+Print out the attendance percentage of students with even roll numbers in the format:
+The attendance percentage of roll number: 2 is [attendance percentage value], roll number: 4 is [attendance percentage value], ... and roll number: 10 is [attendance percentage value].
+
+Solution:
