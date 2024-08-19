@@ -60,5 +60,17 @@ const library = {
 
 console.log(library.fiction, library.autobiography);
 
-6) 
+6) Add Object Property using Dot Notation:
+const person = {
+  fullName: "Adam Smith",
+  age: 37,
+  isAdmin: true
+};
 
+person.profession = "Engineer";
+
+console.log(person);
+
+/*Added a person object. This person's profession is "Engineer", using dot notation.*/
+
+7) 
