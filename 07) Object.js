@@ -12,5 +12,25 @@ const car = {
   fuelType: "diesel"
 };
 console.log(car);
+console.log(`It is a ${car.model} car that runs on ${car.fuelType}`);
 
-3) 
+
+3) We can also assign the value of variables to the property of an object:
+
+Example:
+const noOfSeats = 5;
+
+const car = {
+  model: 2011,
+  seatingCapacity: noOfSeats,
+  fuelType: "petrol"
+};
+const result = `It is a ${car.model} model car that runs on ${car.fuelType} and has ${car.seatingCapacity} seats.`
+console.log(result);
+
+In the example given above, the property car.seatingCapacity is assigned the value of noOfSeats, which is 5.
+
+
+
+
+
