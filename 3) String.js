@@ -10,13 +10,13 @@ const someRandomSentence = "You can be a great programmer!";
 console.log(someRandomSentence);
 
 b) single quote:
-const fullName = 'Sam Smith';
+const fullName = `Sam Smith`;
 console.log(fullName);
 
-const book = 'The Newest Dragon Stories';
+const book = `The Newest Dragon Stories`;
 console.log(book);
 
-const someRandomSentence = 'You can be a great programmer!';
+const someRandomSentence = `You can be a great programmer!`; //below esc button on keyboard: `` 
 console.log(someRandomSentence);
 
 //We can see that using single quotes or double quotes for creating strings makes no difference. 
