@@ -87,7 +87,27 @@ person.age = 23;
 
 console.log(person);
 
-8) 
+8) Get Object Values - Bracket Notation:
+Always it isn't possible that will have a proper variable name, it can be number, have -,# too!
+So how will do:
+
+a) numerical:
+const person = {
+  12: "Adam",
+  13: "Samantha"
+};
+
+console.log(person[12]);
+  
+b) special character:
+const project = {
+  "project-lead": "Adam",
+  developer: "Samantha"
+};
+
+console.log(project["project-lead"]);
+
+
 
 
 
