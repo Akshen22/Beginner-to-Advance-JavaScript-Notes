@@ -74,4 +74,12 @@ a) console.log(15 % 3);
 b) console.log(16 % 3);
 --> 1 //Remainder
 
+c) Challenge:
+Create a variable number and store the value 683 to it.
+Display the remainder of division of number by 2.
+
+Solution:
+let number = 683;
+console.log(number % 2);
+
 5) 
