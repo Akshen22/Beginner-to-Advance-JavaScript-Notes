@@ -83,6 +83,7 @@ const totalExpense = 36000;
 
 console.log(`Your balance is ${totalIncome - totalExpense}`);
 
-/*Above, we are using string interpolation to insert the value of an expression into a template string.*/
+/*Above, we are using string interpolation to insert the value of an expression into a template string.
+inserting both values in only one: {}*/
 
 5) 
