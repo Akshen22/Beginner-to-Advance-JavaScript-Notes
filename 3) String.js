@@ -73,4 +73,16 @@ const fullName = firstName+ " " +lastName;
 console.log(`Your first name is ${firstName} and last name is ${lastName}.`);
 console.log(`Good Morning ${fullName}! Have a great day.`)
 
-4) 
+4) String Interpolation:
+We can insert the values of variables into a template string using the ${} notation. 
+This is known as string interpolation.
+
+Example:
+const totalIncome = 60000;
+const totalExpense = 36000;
+
+console.log(`Your balance is ${totalIncome - totalExpense}`);
+
+/*Above, we are using string interpolation to insert the value of an expression into a template string.*/
+
+5) 
