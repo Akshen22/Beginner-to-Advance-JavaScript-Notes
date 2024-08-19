@@ -30,7 +30,25 @@ console.log(result);
 
 In the example given above, the property car.seatingCapacity is assigned the value of noOfSeats, which is 5.
 
+4) Challenge:
+Create a variable library. Value of library is an object and the properties of that object are defined below:
 
+Key: Value
+fiction:	"Harry Potter"
+autobiography:	"The diary of a young girl"
+history:	"The Discovery of India"
 
+Log the value of library to the console.
+
+Solution:
+const library = {
+  fiction: "Harry Potter",
+  autobiography: "The diary of a young girl",
+  history: "The Discovery of India"
+}
+
+console.log(library);
+
+5) 
 
 
