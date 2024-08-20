@@ -57,6 +57,7 @@ else {
 
 2) AND:
 
+Example 1:
 Using your knowledge of conditionals, try solving the challenge described below. Try not to scroll down or take a peek at the solution.
 We have grade and internship status of a student.
 The student will get a discount of 3000 on their course fee if the following conditions are met:
@@ -90,7 +91,7 @@ true	              false	                  false
 false	              true	                  false
 false	              false	                  false
 
-3) AND Challenge:
+Example 2:
 You are working on a user management system for an online platform.
 You have a user object representing a user in the system. The user object contains properties such as name, login status, role, plan, and fullAdminPackage. 
 Your task is to write code that checks the user's login status, role, plan, and fullAdminPackage to determine the access level to the admin panel.
