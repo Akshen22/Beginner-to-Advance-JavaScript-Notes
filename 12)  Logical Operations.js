@@ -79,6 +79,6 @@ if (student.marks >= 75 && student.internshipDone === true) {
 }
 
 else {
-  console.log (`Your course fee is: ${courseDiscountAmount}.`)
+  console.log (`Your course fee is: ${courseFee}.`)
 }
 
