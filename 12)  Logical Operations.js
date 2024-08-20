@@ -13,6 +13,7 @@ else {
   console.log(`Access denied`);
 }
 
+OR Table:
 guest.role === "faculty"	guest.role === "volunteer"	Result
 true	                    true	                      true
 true	                    false	                      true
@@ -82,3 +83,11 @@ else {
   console.log (`Your course fee is: ${courseFee}.`)
 }
 
+AND Table:
+student.marks >= 75	student.internshipDone	Result
+true	              true	                  true
+true	              false	                  false
+false	              true	                  false
+false	              false	                  false
+
+3) 
