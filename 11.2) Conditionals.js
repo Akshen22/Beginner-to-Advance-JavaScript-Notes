@@ -54,4 +54,18 @@ switch(rollNumberToCheck) {
 Here for the roll numbers 8746, 5649, 3268, 7901 the code to be executed is the same: console.log("Congratulations, you have passed the test!");. 
 So we group them together and write the code to be executed once. We do the same for the other set as well.
 
-8) 
+8) Ternary operator:
+
+const number = 4;
+const numberType = (number % 2 === 0) ? "even" : "odd";
+console.log(numberType);
+
+It starts with a condition followed by the ? operator.
+It is then followed by two expressions, separated by the : operator.
+The expression to the left of the : operator is evaluated when the condition is true.
+The expression to the right of the : operator is evaluated when the condition is false.
+
+The Ternary operator requires fewer lines of code, when compared to the if...else statement, making it easy to write. 
+The reduced lines of code also make it easy to read and comprehend the logic.
+The Ternary operator should only be used when all three operands are small. 
+Using the Ternary operator with large operands makes the code less comprehensible and harder to debug in the future.  
