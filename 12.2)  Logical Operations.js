@@ -49,8 +49,9 @@ Write an if statement, that displays "Who are you?" if the value of the variable
 Solution:
 const personName = "";
 
-if(!personName != "") {
+if(!(personName !== "")) {
   console.log("Who are you?");
 };
 
-5) 
+5) NOT vs Inequality Operators:
+
