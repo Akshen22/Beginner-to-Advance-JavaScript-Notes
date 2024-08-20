@@ -56,6 +56,8 @@ if(!personName !== "") {
 5) Inequality Operators: used to compare two values and check whether they are not equal.
 
 Example:
+Let's say we need to display "You get a 10% discount on your course fee" when student.grade is not "D" and student.nationality is not "India". 
+Since we need to make two comparisons here, it is fine to use the ! operator as shown below.
 const student = {
   grade: "A",
   nationality: "Indian",
