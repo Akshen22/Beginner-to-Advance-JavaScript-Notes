@@ -19,6 +19,28 @@ else {
   console.log(false);
 }
 
-4) NOT:
+4) NOT ('!'):
+The NOT operator - !, when applied to a value or expression returns false if the condition evaluates to true and returns true if the condition evaluates to false.
 
+For example, let's say we have an object user with two properties - name and isAdmin. 
+Let's say we need to display "You do not have access to this feature", if the value of user.isAdmin is false. 
+The following example shows how to use the ! operator to perform this check:
 
+const user = {
+  name: "Oliver Smith",
+  isAdmin: false,
+};
+
+if (!user.isAdmin===true) {
+  console.log("You do not have access to this feature");
+}
+
+In the example given above, user.isAdmin is false and the condition !user.isAdmin returns true. 
+If the value of user.isAdmin was true, then the condition !user.isAdmin would result in false. 
+
+NOT table:
+user.isAdmin	Result
+true	        false
+false	        true
+
+5) 
