@@ -69,3 +69,14 @@ The Ternary operator requires fewer lines of code, when compared to the if...els
 The reduced lines of code also make it easy to read and comprehend the logic.
 The Ternary operator should only be used when all three operands are small. 
 Using the Ternary operator with large operands makes the code less comprehensible and harder to debug in the future.  
+
+9)  Challenge: - Find Maximum Number:
+
+function findMaxOfThree(a, b, c) {
+  let maximumValue = a > b ? (a > c ? a : c) : (c > b ? c : b);
+  console.log(maximumValue);
+};
+
+findMaxOfThree(5, 10, 3);
+findMaxOfThree(8, 2, 15);
+findMaxOfThree(4, 4, 4);
