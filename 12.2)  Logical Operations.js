@@ -43,4 +43,14 @@ user.isAdmin	Result
 true	        false
 false	        true
 
+Example 2:
+Write an if statement, that displays "Who are you?" if the value of the variable personName is "", provided that the value of personName will always be of the type string.
+
+Solution:
+const personName = "";
+
+if(!personName != "") {
+  console.log("Who are you?");
+};
+
 5) 
