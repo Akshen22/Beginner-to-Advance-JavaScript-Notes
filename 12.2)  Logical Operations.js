@@ -66,3 +66,53 @@ const student = {
 if (!(student.grade === "D" && student.nationality === "India")) {
   console.log("You get a 10% discount on your course fee");
 }
+
+6) Nullish Coalescing Operator:
+
+a) The Nullish Coalescing operator, denoted as ??, returns the left-hand operand provided that the left-hand operand is not null or undefined. 
+Otherwise, it returns the right-hand operand.
+
+Solution:
+console.log("Hello Sam Smith" ?? "Hello Guest");
+console.log(null ?? "Hello Guest");
+console.log(undefined ?? "Hello Guest");
+console.log(0 ?? 234);
+console.log(false ?? true);
+console.log(undefined ?? null); //If the value on the left-hand side of the ?? operator is either null or undefined, the operator will return the value on the right-hand side.
+console.log(null ?? null);
+
+b) const defaultRole = "Standard";:
+
+  Example 1: 
+  const user1 = {
+  name: "Sam Smith",
+  age: 32,
+  role: "Admin",
+};
+console.log(`${user1.name} is a ${user1.role} user.`);
+
+const user2 = {
+  name: "Oliver Smith",
+  age: 32,
+};
+console.log(`${user2.name} is a ${user2.role} user.`);
+
+* user2.role --> undefined! to remove undefined, will place: const defaultRole = "Standard";
+in the beginning, so that whenever there's a chance to get undefined, will get standard!
+
+Example 2:
+const defaultRole = "Standard";
+
+const user1 = {
+  name: "Sam Smith",
+  age: 32,
+  role: "Admin",
+};
+console.log(`${user1.name} is a ${user1.role ?? defaultRole} user.`);
+
+const user2 = {
+  name: "Oliver Smith",
+  age: 32,
+};
+console.log(`${user2.name} is a ${user2.role ?? defaultRole} user.`);
+
