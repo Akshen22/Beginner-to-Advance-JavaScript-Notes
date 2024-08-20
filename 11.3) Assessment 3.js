@@ -50,7 +50,7 @@ Log to the console in the following format:
 My favorite movie from the list above is Drishyam.
 Note: Do not hardcode the movie name in the sentence.
 
-Solution:
+Solution 1:
 let malayalamMovies = ['Kumbalangi Nights', 'Koodi', 'Drishyam','Vettam', 'Lucifer', 'Uyare', 'Premam', 'Maheshinte Prathikaram', 'Bangalore Days', 'Charlie', 'Ayyappanum Koshiyum', 'Njan Prakashan'];
 
 console.log("Total number of movies:", malayalamMovies.length);
@@ -61,3 +61,19 @@ console.log("Total number of movies after addition:", malayalamMovies.length);
 
 let favoriteMovie = malayalamMovies[2];
 console.log(`My favorite movie from the list above is ${favoriteMovie}.`);
+
+Solution 2:
+let malayalamMovies = ['Kumbalangi Nights', 'Koodi', 'Drishyam','Vettam', 'Lucifer', 'Uyare', 'Premam', 'Maheshinte Prathikaram', 'Bangalore Days', 'Charlie', 'Ayyappanum Koshiyum', 'Njan Prakashan'];
+
+console.log("Total number of movies:", malayalamMovies.length);
+
+malayalamMovies.push('Vichithram');
+
+console.log("Total number of movies after addition:", malayalamMovies.length);
+
+const movie = {
+  name: "Drishyam"
+}
+if (movie.name) {
+  console.log(`My favorite movie from the list above is ${movie.name}.`);
+};
