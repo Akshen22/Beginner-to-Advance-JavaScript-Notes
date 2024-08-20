@@ -78,7 +78,35 @@ else {
 }
 
 5) else if Statement:
-The else if statement is used along with the if and else statements. 
+
+a) The else if statement is used along with the if and else statements. 
 It is used to execute blocks of code conditionally when there are more than two conditions.
 
+Example:
+const number = 0; //similarly, do with -7 & 7 and see the results!
+ 
+if (number > 0) {
+  console.log("The number is positive.");
+} else if (number === 0) {
+  console.log("The number is 0.");
+} else {
+  console.log("The number is negative.");
+}
   
+b) Depending upon the number of conditions, we can add as many else if statements as needed. 
+They must be added between the if and else statements.
+
+Example:
+const number = -9;
+
+if (number > 9) {
+  console.log("The number is positive with multiple digits.");
+} else if (number > 0) {
+  console.log("The number is positive with single digit.");
+} else if (number === 0) {
+  console.log("The number is 0.");
+} else if (number > -10) {
+  console.log("The number is negative with single digit.");
+} else {
+  console.log("The number is negative with multiple digits.");
+}
