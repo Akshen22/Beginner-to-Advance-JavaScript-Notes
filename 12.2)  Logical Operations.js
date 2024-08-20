@@ -49,9 +49,18 @@ Write an if statement, that displays "Who are you?" if the value of the variable
 Solution:
 const personName = "";
 
-if(!(personName !== "")) {
+if(!personName !== "") {
   console.log("Who are you?");
 };
 
-5) NOT vs Inequality Operators:
+5) Inequality Operators: used to compare two values and check whether they are not equal.
 
+Example:
+const student = {
+  grade: "A",
+  nationality: "Indian",
+};
+
+if (!(student.grade === "D" && student.nationality === "India")) {
+  console.log("You get a 10% discount on your course fee");
+}
