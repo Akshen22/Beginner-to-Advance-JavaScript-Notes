@@ -134,5 +134,3 @@ if (user.role === "Admin") {
 else {
   console.log("Please log in to access the admin panel.")
 }
-
-4) 
