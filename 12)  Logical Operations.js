@@ -54,4 +54,31 @@ else {
   console.log(`${user.name} has standard privileges.`)
 }
 
-2) 
+2) AND:
+
+Using your knowledge of conditionals, try solving the challenge described below. Try not to scroll down or take a peek at the solution.
+We have grade and internship status of a student.
+The student will get a discount of 3000 on their course fee if the following conditions are met:
+Student have scored 75 or above.
+Student has done an internship.
+Write a program such that even if one of the conditions does not evaluate to true, the student does not get the discount and log to the console Your course fee is: [courseFee]. 
+or else log Your course fee after discount is: [discountedFee].
+
+Solution:
+const courseFee = 10000;
+const courseDiscountAmount = 3000;
+const student = { 
+  marks: 78,
+  internshipDone: true
+};
+
+const discountedFee = courseFee - courseDiscountAmount;
+
+if (student.marks >= 75 && student.internshipDone === true) {
+  console.log(`Your course fee after discount is: ${discountedFee}.`)
+}
+
+else {
+  console.log (`Your course fee is: ${courseDiscountAmount}.`)
+}
+
