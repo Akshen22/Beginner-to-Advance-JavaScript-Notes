@@ -101,3 +101,30 @@ const greetHi = () => {
 
 greetHi();
 
+5) We can see that the two functions are both doing the same thing. They are both putting on screen something. 
+  They are different only because of the value they put on the screen. 
+  Instead of repeating ourselves, let's create a single function that can understand what value we want on the screen.
+
+Example 1:
+const greeting = (greetingType) => {
+  console.log(greetingType);
+}
+
+greeting("Hi");
+greeting("Hello");
+greeting("Welcome");
+
+Example 2:
+We have a function called showName that puts any name that we provide to it on the screen.
+Run it once and ensure that it uses Renu Sen as the value.
+Then, run it again, and this time run it so that we see the name Sam Smith on the screen.
+
+Solution:
+const showName = (Name) => {
+  console.log(Name);
+}
+
+showName("Renu Sen");
+showName("Sam Smith");
+
+6) 
