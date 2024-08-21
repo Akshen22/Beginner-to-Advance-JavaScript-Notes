@@ -51,4 +51,33 @@ console.log(Number(undefined));
 f) Calling Number() on NaN returns NaN itself:
 console.log(Number(NaN));
 
+3) isNaN(): used to determine if a value is NaN ("Not-a-Number")
+When we try to convert a particular variable and don't get converted, the output we get is "true"!
 
+a) Example:
+const greeting = "Good Morning!";
+console.log(isNaN(greeting));
+
+const string = "Hello!";
+console.log(isNaN(string));
+
+console.log(isNaN("2"));
+
+console.log(isNaN(false));
+
+console.log(isNaN(0));
+
+console.log(isNaN(""));
+
+In JavaScript, when we convert "", true and false to number, we get 0, 1 and 0 respectively. 
+Since these are numbers, isNaN gives false as an output.
+
+b) Challenge:
+Check and log to the console if the given value of 'userInput' is NaN or not.
+
+const userInput = "007";
+console.log(isNaN(userInput));
+  
+4) Composite data types:
+When we use typeof with any composite data type, even null, we get the output "object".
+Note that, when we use typeof with undefined we get the output as "undefined".
