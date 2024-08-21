@@ -129,7 +129,7 @@ showName("Sam Smith");
 
 6) What if we need multiple values? We can simply attach the second one! But how? 
   
-Look below:
+a) Look below:
 const calculateSum = (firstNumber, secondNumber) => {
   const sum = firstNumber + secondNumber;
   console.log(sum);
@@ -140,3 +140,10 @@ calculateSum(12, 12);
 calculateSum(50, 63);
 
 /*Just make a list of the values that you need in the function and put them in the parentheses using commas.*/
+
+b) Example 2:
+const showCapitalCity = (countryName, capitalName) => {
+  console.log(`${capitalName} is the capital of ${countryName}.`);
+}
+
+showCapitalCity("New Zealand", "Wellington");
