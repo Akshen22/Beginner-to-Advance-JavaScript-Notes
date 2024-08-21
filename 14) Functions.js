@@ -62,3 +62,30 @@ const totalCost =
 
 const result = (`Total Cost: ${totalCost}`);
 console.log(result);
+
+2) Function Expression:
+
+const displayValidationError = function () {
+  console.log("The user details are not valid.");
+}
+
+displayValidationError();
+
+In the above example, we are assigning a function with no name to the variable displayValidationError. 
+Here, the variable name serves as the function name. This function, without a name, is called an anonymous function.
+
+3)  Use the Arrow Function:
+
+Arrow function is a different way of defining a function. Let's convert the function displayValidationError from the previous chapter to an arrow function!
+
+const displayValidationError = () => {
+  console.log("The user details are not valid.");
+}
+
+displayValidationError();
+
+Arrow function is basically an expression assigned to a variable. 
+In the example above, the arrow function is assigned to the variable displayValidationError. 
+The Arrow function expression starts with the parentheses (), followed by the arrow operator =>, and the function body.
+
+4) 
