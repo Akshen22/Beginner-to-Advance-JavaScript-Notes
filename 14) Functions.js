@@ -22,10 +22,20 @@ const totalCost =
 const result = `Total Cost: ${totalCost}`;
 console.log(result);
 
---> In the above program, we need to individually calulate price and quantity of the fruits 
+--> In the above program, we need to individually calculate price and quantity of the fruits 
 and total it, a very lengthy work, right?
 So, let's bring a shortcut method which gonna be done, using: "function"!
 
+function: A function is created using the function keyword. 
+The basic structure of a function includes the function name, parentheses, and a code block enclosed in curly braces.
+syntax: 
+function displayValidationError() {
+  console.log("The user details are not valid.");
+}
+
+displayValidationError();
+
+Example:
 const apples = {
   price: 5,
   quantity: 3
