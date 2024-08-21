@@ -88,4 +88,16 @@ Arrow function is basically an expression assigned to a variable.
 In the example above, the arrow function is assigned to the variable displayValidationError. 
 The Arrow function expression starts with the parentheses (), followed by the arrow operator =>, and the function body.
 
-4) 
+4) Example:
+const greetWelcome = () => {
+  console.log("Welcome");
+}
+
+greetWelcome();
+
+const greetHi = () => {
+  console.log("Hi");
+}
+
+greetHi();
+
