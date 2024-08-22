@@ -135,3 +135,56 @@ iii) When calculateSum(81, 90, 72, 99) is invoked, the sum 342 is stored in sumO
   The returned value is stored in totalMarks1.
 iv) When calculateSum(72, 84, 96, 100) is invoked, the sum 352 is stored in sumOfNumbers and is then returned. 
   The returned value is stored in totalMarks2.
+
+6) Why return statement?
+Example 1:
+  
+const applesPrice = 10;
+const applesQuantity = 3;
+
+const bananasPrice = 5;
+const bananasQuantity = 5;
+
+const milkPrice = 20;
+const milkQuantity = 1;
+
+
+function calculateItemCost (price, quantity) {
+  const total = price * quantity;
+  return total;
+}
+
+const totalCost =
+  calculateItemCost(applesPrice, applesQuantity) +
+  calculateItemCost(bananasPrice, bananasQuantity) +
+  calculateItemCost(milkPrice, milkQuantity);
+
+
+console.log(`Total Cost of grocery is $${totalCost}`);
+
+Output: Total Cost of grocery is $75 
+
+In the above example, by using return, we can reuse the result of the function calculateItemCost to calculate the cost of each item. And, then use the final cost by adding them up and storing it in totalCost. Returning values allows us to use the same logic in different situations, making our code more reusable.
+
+7) Example 2:
+function calculatePercentage(value, total) {
+  return (value / total) * 100;
+}
+
+function checkPassOrFail(marksObtained, totalMarks) {
+  const percentage = calculatePercentage(marksObtained, totalMarks);
+  if (percentage >= 50) {
+    return "Pass";
+  } else {
+    return "Fail";
+  }
+}
+
+const examResult = checkPassOrFail(75, 100);
+console.log(examResult);
+
+Output: Pass
+
+In the above example, the calculatePercentage function uses return to provide the calculated percentage value. 
+This enables us to determine if it is a Pass or Fail in the checkPassOrFail function. 
+Thus, returning values makes our code modular, reusable, and more organized.
