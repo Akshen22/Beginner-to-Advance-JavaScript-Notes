@@ -115,4 +115,14 @@ displayPackageInfo = (orderID = '0001', status = 'to be dispatched') => {
 
 displayPackageInfo();
 
-5) 
+5) return Statement:
+const calculateSum = (number1, number2, number3, number4) => {
+  const sumOfNumbers = number1 + number2 + number3 + number4;
+  return sumOfNumbers;
+}
+
+const totalMarks1 = calculateSum(81, 90, 72, 99);
+console.log(totalMarks1);
+
+const totalMarks2 = calculateSum(72, 84, 96, 100);
+console.log(totalMarks2);
