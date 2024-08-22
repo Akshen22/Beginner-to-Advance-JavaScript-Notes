@@ -188,3 +188,23 @@ Output: Pass
 In the above example, the calculatePercentage function uses return to provide the calculated percentage value. 
 This enables us to determine if it is a Pass or Fail in the checkPassOrFail function. 
 Thus, returning values makes our code modular, reusable, and more organized.
+
+8) Challenge:
+Create a function addition which takes 2 parameters:
+
+firstNumber
+secondNumber
+The function should return the result of adding both the values.
+
+Run the function inside a console.log() using the following numbers:
+
+6
+8
+
+Solution:
+addition = (firstNumber, secondNumber) => {
+  const result = firstNumber+secondNumber;
+  return result;
+};
+
+console.log(addition(6,8));
