@@ -126,3 +126,12 @@ console.log(totalMarks1);
 
 const totalMarks2 = calculateSum(72, 84, 96, 100);
 console.log(totalMarks2);
+
+
+In the example given above:
+i) Inside the calculateSum function, the sum of all the arguments is calculated and stored in sumOfNumbers.
+ii) The statement return sumOfNumbers indicates that a function call to calculateSum should return the value of sumOfNumbers.
+iii) When calculateSum(81, 90, 72, 99) is invoked, the sum 342 is stored in sumOfNumbers and is then returned. 
+  The returned value is stored in totalMarks1.
+iv) When calculateSum(72, 84, 96, 100) is invoked, the sum 352 is stored in sumOfNumbers and is then returned. 
+  The returned value is stored in totalMarks2.
