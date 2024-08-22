@@ -40,7 +40,7 @@ In the example above, (invalidFieldName, additionalMessage) are parameters of th
 Arguments are the values passed in a function call. In the above example, displayValidationError("name", "Please provide a valid name.") is a function call
 and "name", "Please provide a valid name." are the arguments.
 
-4) Default Parameters:
+2) Default Parameters:
 Consider the following example where we do not pass the second argument while invoking the displayValidationError function.
 
 a) const displayValidationError = (invalidFieldName, additionalMessage) => {
@@ -90,4 +90,4 @@ iv) displayValidationError("name", null) - invalidFieldName gets the value "name
 v) Even though both undefined and null literally convey the lack of a value, null is still considered as a value in JavaScript. 
   That is why additionalMessage doesn't use the default value even though null was passed to it.
 
-5) 
+3) 
