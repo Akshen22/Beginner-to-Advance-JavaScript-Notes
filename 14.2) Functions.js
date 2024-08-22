@@ -90,7 +90,7 @@ iv) displayValidationError("name", null) - invalidFieldName gets the value "name
 v) Even though both undefined and null literally convey the lack of a value, null is still considered as a value in JavaScript. 
   That is why additionalMessage doesn't use the default value even though null was passed to it.
 
-3) Challenge:
+3) Challenge 1:
 Update the function displayPackageInfo to have two two arguments orderID and status.
 Based on the arguments received, the function should display Your package #<orderID> is <status> using a template string.
 The default value of status should be "to be dispatched".
@@ -102,4 +102,17 @@ const displayPackageInfo = (orderID, status = 'to be dispatched') => {
 
 displayPackageInfo("ABC123");
 
-4) 
+4) Challenge 2:
+Create a function displayPackageInfo to have two two arguments: orderID and status
+Based on the arguments received, the function should display Your package #<orderID> is <status> using a template string.
+The default value of orderID should be 0001 and status should be "to be dispatched".
+Call the function without any parameters.
+
+Solution:
+displayPackageInfo = (orderID = '0001', status = 'to be dispatched') => {
+  console.log(`Your package #${orderID} is ${status}`);
+}
+
+displayPackageInfo();
+
+5) 
