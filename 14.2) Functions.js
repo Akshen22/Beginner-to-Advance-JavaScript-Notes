@@ -71,4 +71,23 @@ Output: The user name is not valid.
 
 Here, we can see an important difference between undefined in a) and null b).
 
-c) 
+c) Example 3:
+const displayValidationError = (invalidFieldName, additionalMessage = "") => {
+  console.log(`The user ${invalidFieldName} is not valid. ${additionalMessage}`);
+}
+
+displayValidationError("name", undefined);
+displayValidationError("name");
+displayValidationError();
+displayValidationError("name", null);
+
+i) displayValidationError("name", undefined) - This passes undefined to the additionalMessage parameter and hence additionalMessage will be set as "", the default value.
+ii) displayValidationError("name") - Since the second argument is omitted, additionalMessage will receive undefined. 
+  Hence, additionalMessage will be set as "", the default value.
+iii) displayValidationError() - Since both the arguments are omitted, both invalidFieldName and additionalMessage will receive undefined. 
+  Since invalidFieldName does not have a default value, its value will remain as undefined. However, additionalMessage will be assigned the default value "".
+iv) displayValidationError("name", null) - invalidFieldName gets the value "name" and additionalMessage gets the value null.
+v) Even though both undefined and null literally convey the lack of a value, null is still considered as a value in JavaScript. 
+  That is why additionalMessage doesn't use the default value even though null was passed to it.
+
+5) 
