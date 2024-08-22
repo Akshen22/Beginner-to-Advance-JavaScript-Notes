@@ -40,3 +40,35 @@ In the example above, (invalidFieldName, additionalMessage) are parameters of th
 Arguments are the values passed in a function call. In the above example, displayValidationError("name", "Please provide a valid name.") is a function call
 and "name", "Please provide a valid name." are the arguments.
 
+4) Default Parameters:
+Consider the following example where we do not pass the second argument while invoking the displayValidationError function.
+
+a) const displayValidationError = (invalidFieldName, additionalMessage) => {
+const result = `The user ${invalidFieldName} is not valid. ${additionalMessage}`;
+console.log(result);
+}
+
+displayValidationError("name");
+
+Output: The user name is not valid. undefined!
+
+In the above example, the second parameter additionalMessage received the value - undefined. That is why the output has "undefined" in the end. 
+Any argument that is omitted will be set as undefined in the corresponding function parameter.
+
+There might come a scenario where a function has an "optional" parameter, i.e., a parameter to which we don't always need to pass a value. 
+In such cases, we can use default parameters. Default parameters are function parameters that use a specified value as the default value if a function call passes undefined to that parameter.
+
+Let's modify the displayValidationError such that we can avoid the "undefined" in the message in case the value of additionalMessage is undefined.
+
+b) const displayValidationError = (invalidFieldName, additionalMessage = "") => {
+  const result = `The user ${invalidFieldName} is not valid. ${additionalMessage}`;
+  console.log(result);
+}
+
+displayValidationError("name");
+
+Output: The user name is not valid.  
+
+Here, we can see an important difference between undefined in a) and null b).
+
+c) 
