@@ -50,8 +50,12 @@ Later give lastName a value of null.
 Check if firstName is equal to lastName and log the Boolean result to the console.
 
 Solution:
-let firstName;
+let firstName; 
 let lastName;
 lastName = null;
 
 console.log(firstName===lastName);
+
+Output: false
+/*as firstName=undefined (no variable & the value)
+as lastName=null (no value)*/
