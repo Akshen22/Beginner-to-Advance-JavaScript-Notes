@@ -31,11 +31,13 @@ const student2 = {
 const courseFee = 5000;
 
 const getStudentFee = student => {
-  if (student.nationality !== "India")
+  if (student.nationality !== "India") {
     return courseFee;
-
-  const discountedFee = courseFee - courseFee * 0.1;
-  return discountedFee;
+  } 
+  else {
+    const discountedFee = courseFee - courseFee * 0.1;
+    return discountedFee;
+  }
 };
 
 console.log(getStudentFee(student1));
@@ -48,4 +50,35 @@ If the value of the nationality property of the parameter student is not "India"
 If the value of student.nationality is "India", a 10% discounted course fee is calculated, stored in discountedFee, and the value of discountedFee is returned.
 We can rewrite the getStudentFee function in the example given above, to make use of the fact that the return statement terminates further execution of a function.
 
-c) 
+c) Same code, without using else:
+
+const student1 = {
+  name: "Sam Smith",
+  nationality: "India",
+};
+
+const student2 = {
+  name: "Oliver Smith",
+  nationality: "USA",
+};
+
+const courseFee = 5000;
+
+const getStudentFee = student => {
+  if (student.nationality !== "India")
+    return courseFee;
+
+  const discountedFee = courseFee - courseFee * 0.1;
+  return discountedFee;
+};
+
+console.log(getStudentFee(student1));
+
+console.log(getStudentFee(student2));
+
+i) If the value of student.nationality is not "India", we return the value of courseFee. 
+  Since further execution of the function is stopped, we do not need to provide the else statement.
+ii) If the value of student.nationality is "India", return courseFee; will not be executed and we move to the next statement.
+  A 10% discounted course fee is calculated, stored in discountedFee, and the value of discountedFee is returned.
+
+d) 
