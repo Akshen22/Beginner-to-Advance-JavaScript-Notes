@@ -208,3 +208,14 @@ runs =  100;
 console.log(fullName);
 console.log(timeInMinutes);
 console.log(runs);
+
+* Assignment vs Mutation:
+a) Assignment:
+let fruits = ["Apple", "Banana", "Mango"]
+fruits = ["Strawberry", "Blueberry"]
+--> Will get added, so it's called an "Assignment"!
+
+b) Mutation:
+let cities = ["Paris", "London", "Chicago"]
+cities[0] = "Tokyo"
+--> Whereas, here will replace the 0th place id, Paris to Tokyo, and so it's called Mutation!
