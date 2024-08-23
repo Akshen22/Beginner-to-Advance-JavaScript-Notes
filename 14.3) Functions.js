@@ -110,3 +110,23 @@ iii) In the example given above, the return statement does not return any value.
     It's purpose is purely for terminating further execution of the function.
 iv) In the example given above, the if statement - if (!user.name) return; is known as a guard clause. 
   +A guard clause prevents further execution of a function, for a certain condition.
+
+10) Arrow shorthand property:
+a)
+const calculateSum = (number1, number2, number3, number4) =>
+  number1 + number2 + number3 + number4;
+const totalMarks = calculateSum(81, 90, 72, 99);
+console.log(totalMarks);
+
+In the example given above, the body of the arrow function is not wrapped in {}. 
+  Instead, the function body contains only the expression, whose value is to be returned. 
+  When the function is defined in such a manner, the value evaluated from the statement following the => operator is returned.
+
+b) const displayGreeting = () => console.log("Hello World!");
+
+displayGreeting();
+
+c) const displayGreeting = () => console.log("Hello World!");
+
+const valueReturned = displayGreeting();
+console.log(valueReturned);
