@@ -219,3 +219,5 @@ b) Mutation:
 let cities = ["Paris", "London", "Chicago"]
 cities[0] = "Tokyo"
 --> Whereas, here will replace the 0th place id, Paris to Tokyo, and so it's called Mutation!
+
+* both let and const allow mutation, but only let allows assigning new values.
