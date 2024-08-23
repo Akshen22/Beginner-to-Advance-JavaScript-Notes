@@ -133,6 +133,7 @@ firstName, lastName, temperatureInCelsius, fruitsWithRedColor
 
 6) const (constant): used to create a variable whose value is not intended to be changed at all, once it is created.
 If we try to change the value of a variable created using the const keyword, we will get an error.
+But if there's a variable after the const, we can change it! (example: const fruit {name: "Apple"}) --> fruit.name = "Banana"; will get output as Banana!
 
 Example:
 const speed = 40;
