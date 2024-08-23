@@ -63,3 +63,40 @@ displayTotalCount = (list, newElement) => {
 };
 
 displayTotalCount(teamMembers, newTeamMember);
+
+14) Callback Functions:
+In JavaScript, you can define a function and pass it as an argument to another function. Such a function, is called a callback function.
+
+const validateSolution = (solution, statusMessage) => {
+  if (solution === 11) {
+    statusMessage(true);
+  } else {
+    statusMessage(false);
+  }
+};
+
+const statusMessage = (status) => {
+  if (status) {
+    console.log("Great! Your answer is correct!");
+  } else {
+    console.log("Oops! Your answer is incorrect. Please try again.");
+  }
+};
+const solution = 11; 
+validateSolution(solution, statusMessage);
+
+In the above code we see 2 functions validateSolution and statusMessage. statusMessage is passed as an argument to validateSolution, this makes statusMessage a callback function.
+This example showcases the use of a callback function statusMessage to handle and display the success or error status based on the result of the validation process done in the validateSolution function.
+
+15) Anonymous Functions:
+An anonymous function is one that is not given a name.
+
+(function () {
+  console.log("Function Keyword");
+})();
+
+(() => {
+  console.log("Arrow Function");
+})();
+
+16) 
