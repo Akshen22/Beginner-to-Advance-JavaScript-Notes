@@ -81,4 +81,32 @@ i) If the value of student.nationality is not "India", we return the value of co
 ii) If the value of student.nationality is "India", return courseFee; will not be executed and we move to the next statement.
   A 10% discounted course fee is calculated, stored in discountedFee, and the value of discountedFee is returned.
 
-d) 
+d) const user1 = {
+  name: "Sam Smith",
+  isAdmin: true,
+};
+
+const user2 = {
+  isAdmin: false,
+};
+
+const displayGreeting = user => {
+  if (!user.name) return;
+
+  console.log(`Hello ${user.name}`);
+};
+
+displayGreeting(user1);
+
+displayGreeting(user2);
+
+In the example given above, in the displayGreeting function:
+
+i) If the value of user.name is falsy, the return; statement is executed. 
+  This returns undefined and stops further execution of the function.
+ii) If the value of user.name is truthy, the return; statement is not executed 
+  and we get an output from the console.log statement.
+iii) In the example given above, the return statement does not return any value. 
+    It's purpose is purely for terminating further execution of the function.
+iv) In the example given above, the if statement - if (!user.name) return; is known as a guard clause. 
+  +A guard clause prevents further execution of a function, for a certain condition.
