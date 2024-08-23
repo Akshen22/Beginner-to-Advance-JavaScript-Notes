@@ -44,4 +44,22 @@ const admin = { name, age, displayGreeting };
 admin.displayGreeting();
 console.log(`I am ${admin.name}`);
 
-13) 
+13) Challenge:
+Create a function named displayTotalCount with two parameters:
+An array of strings.
+A new string element to be added to the list.
+
+The displayTotalCount function should execute the following tasks:
+Adds the string to the array.
+Display the total count of elements in the updated array by logging it to the console.
+
+Solution:
+const teamMembers = ["Ajith", "Vaishnavi", "Nilopher", "Ritika", "Shristi", "Manjunath"];
+const newTeamMember = "Peter";
+
+displayTotalCount = (list, newElement) => {
+  list.push(newElement);
+  console.log(`list.length`)
+};
+
+displayTotalCount(teamMembers, newTeamMember);
