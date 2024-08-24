@@ -39,29 +39,23 @@ We can use the Number() method to convert a non-number value to a number.
 
 a) String to Number:
 const string = "2";
-console.log(string);
-const number = Number(string);
-console.log(number);
+console.log(Number(string));
 
 b) Empty strings get converted to 0:
 let emptyString = "";
-emptyString = Number(emptyString);
-console.log(emptyString);
+console.log(Number(emptyString));
 
 c) Non-empty Strings which don't contain a valid number get converted to NaN:
 let invalidNumberString = "2abc";
-invalidNumberString = Number(invalidNumberString)
-console.log(invalidNumberString);  
+console.log(Number(invalidNumberString));  
 
 d) Boolean to Number:
 true gets converted to 1, while false gets converted to 0.
 let booleanTrue = true;
-booleanTrue = Number(booleanTrue);
-console.log(booleanTrue);
+console.log(Number(booleanTrue));
 
 let booleanFalse = false;
-booleanFalse = Number(booleanFalse);
-console.log(booleanFalse);
+console.log(Number(booleanFalse));
 
 e) Other data types to Number:
 console.log(Number(null));
