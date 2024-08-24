@@ -15,7 +15,10 @@ console.log(true.toString());
 /*However, when we need to convert null, or undefined into a string, we can only use String(). 
 Using toString() in such cases will give us an error.*/
 
-2) Converting to Number:
+2) Converting to Boolean:
+
+
+3) Converting to Number:
 We can use the Number() method to convert a non-number value to a number.
 
 a) String to Number:
@@ -51,7 +54,7 @@ console.log(Number(undefined));
 f) Calling Number() on NaN returns NaN itself:
 console.log(Number(NaN));
 
-3) isNaN(): used to determine if a value is NaN ("Not-a-Number")
+4) isNaN(): used to determine if a value is NaN ("Not-a-Number")
 When we try to convert a particular variable and don't get converted, the output we get is "true"!
 
 a) Example:
@@ -78,6 +81,6 @@ Check and log to the console if the given value of 'userInput' is NaN or not.
 const userInput = "007";
 console.log(isNaN(userInput));
   
-4) Composite data types:
+5) Composite data types:
 When we use typeof with any composite data type, even null, we get the output "object".
 Note that, when we use typeof with undefined we get the output as "undefined".
