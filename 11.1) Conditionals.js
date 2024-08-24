@@ -34,7 +34,7 @@ if (age >= votingAge) {
 }
 // false, so no output!
 
-3) if statement condition:
+3) if statement condition: //helps to get the output we want, not a logical operation!
 
 const employee = {
   name: "Sam"
