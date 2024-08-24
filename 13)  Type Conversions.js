@@ -17,6 +17,22 @@ Using toString() in such cases will give us an error.*/
 
 2) Converting to Boolean:
 
+a) const name = "Sam Smith";
+console.log(Boolean(name));
+
+b) const age = 32;
+console.log(Boolean(age));
+
+c) const experience = 0;
+console.log(Boolean(experience));
+
+d) const null4 = null;
+console.log(Boolean(null4));
+
+e) const undefined5 = undefined;
+console.log(Boolean(undefined5));
+
+/*Values such as the number 0, false, null, undefined, NaN, and the empty string "", will get converted to false. These values are called falsy values.*/
 
 3) Converting to Number:
 We can use the Number() method to convert a non-number value to a number.
