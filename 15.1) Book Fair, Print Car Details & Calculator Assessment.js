@@ -89,3 +89,26 @@ For anything else received, print Invalid Operator.
 Make sure your code is flexible enough to work with any value of the valueOne, valueTwo and operator variable that meets these requirements.
 
 Solution:
+const calculateAndLogValue = (valueOne, valueTwo, operator) => {
+  switch (operator) {
+    case "+":
+      result = valueOne + valueTwo;
+      break;
+    
+    case "-":
+      result = valueOne - valueTwo;
+      break;
+    
+    case "*":
+      result = valueOne * valueTwo;
+      break;
+    
+    case "/":
+      result = valueOne / valueTwo;
+      break;
+      
+    default:
+      result = `Invalid Operator`;
+  }
+  console.log(result);
+}
