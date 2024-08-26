@@ -112,3 +112,26 @@ const calculateAndLogValue = (valueOne, valueTwo, operator) => {
   }
   console.log(result);
 }
+
+4) Good Morning:
+
+Update the function, goodMorning, to make sure it returns Good if the given number is divisible by 3, Morning if divisible by 5, Good Morning 
+if divisible by both, else return the number itself.
+
+const goodMorning = (number) => {
+  if (number % 3 === 0 && number % 5 === 0) {
+    return`Good Morning`;
+  }
+  
+  else if (number % 3 === 0)  {
+    return`Good`;
+  }
+    
+  else if(number % 5 === 0) {
+    return `Morning`;
+  }
+  
+  else {
+    return number;
+  }
+}
