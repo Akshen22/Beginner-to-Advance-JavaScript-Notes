@@ -98,7 +98,7 @@ The function should return a string indicating the tax amount based on the salar
 
 Solution:
 const calculateIncomeTax = (salary, age) => {
-  // write your code here
+  
   let taxRate = 0;
   let taxAmount = 0;
 
@@ -106,17 +106,23 @@ const calculateIncomeTax = (salary, age) => {
     if (salary > 250000 && salary <= 500000) {
       taxRate = 0.05;
     } else if (salary > 500000) {
-      taxRate = 0.10;
+      taxRate = 0.1;
+    } else {
+      taxRate = 0.00;
     }
-  } else {
+  } else if (age > 60) {
     if (salary > 300000 && salary <= 500000) {
       taxRate = 0.05;
     } else if (salary > 500000) {
-      taxRate = 0.10;
+      taxRate = 0.1;
+    } else {
+      taxRate = 0.00;
     }
+  } else {
+    console.log("Wrong input");
+    return;
   }
-
+  
   taxAmount = salary * taxRate;
-
   return `Tax amount is ₹${taxAmount}`;
 }
