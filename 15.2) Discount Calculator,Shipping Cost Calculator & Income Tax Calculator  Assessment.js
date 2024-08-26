@@ -59,3 +59,18 @@ If the weight of the package is 5 kilograms or less, the function should return 
 If the weight of the package exceeds 5 kilograms, the function should return "Shipping cost is ₹Y", where Y is the total shipping cost including the additional charge for weight above 5 kilograms.
 
 Solution:
+const calculateShippingCostIndia = (weight, destination) => {
+  const baseCost = 50;
+  let totalCost;
+
+  if (weight <= 5) {
+    totalCost = baseCost;
+  } else {
+    const extraWeight = weight - 5;
+    totalCost = baseCost + (extraWeight * 10);
+  }
+
+  return `Shipping cost is ₹${totalCost}`;
+}
+
+7) 
