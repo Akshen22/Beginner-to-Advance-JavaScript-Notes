@@ -44,3 +44,21 @@ products.forEach(products => {
 console.log(`Total Price: $${totalPrice}`);
 
 2) Map a Function and Get a New Array:
+
+a) Method A:
+const evenNumbers = [2, 4, 6];
+const createOddNumberArray = (number) => {
+  return number + 1;
+};
+const oddNumbers = evenNumbers.map(number => createOddNumberArray(number));
+
+console.log(oddNumbers);
+
+b) Method B:
+const evenNumbers = [2, 4, 6];
+const oddNumbers = evenNumbers.map((number) => number + 1);
+console.log(oddNumbers);
+
+* The map() method returns an array, while forEach() does not. 
+  Knowing this distinction is helpful when you choose the right method for your task.
+
