@@ -70,9 +70,38 @@ doubleNumbers = numbers.map((number => number * 2));
 
 console.log(doubleNumbers);
 
-* The forEach() method is used to loop through array elements. 
+3) Difference between forEach and map:
+
+i) The forEach() method is used to loop through array elements. 
   It runs the same function on each element. It doesn't change the given array and returns undefined.
-* The map() method also iterates through array elements. It applies a function to each element. 
+ii) The map() method also iterates through array elements. It applies a function to each element. 
   It creates a new array with the modified elements, and returns the new array.
 
-3) 
+iii) forEach():
+const numbers = [1, 2, 3, 4];
+
+const doubledNumbers = numbers.forEach(number => number * 2);
+
+console.log(doubledNumbers);
+
+// doesn't give the result we want, multiply by 2!
+
+iv) map():
+const numbers = [1, 2, 3, 4];
+
+const doubledNumbers = numbers.map(number => number * 2);
+
+console.log(doubledNumbers);
+
+// gives the result we want, multiply by 2!
+
+v) to get the result using forEach():
+const numbers = [1, 2, 3];
+
+numbers.forEach(number => {
+  console.log(number * 2);
+});
+
+// just added console.log in between the arrow and the result of the function we want!
+
+vi) Challenge:
