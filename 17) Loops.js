@@ -85,10 +85,49 @@ for (const index in fruits) {
 //Shows the index (or position) of each item in the array.
 
 //Note that the value of index is always a string containing the index number.
-//We can also use the for...in loop to show all the elements of the array; 
+//We can also use the for...in a loop to show all the elements of the array; 
 
 Example 2:
 const fruits = ["Mango", "Apple", "Banana"];
 for (const index in fruits) {
   console.log(fruits[index]);
 }
+
+Challenge:
+Use the for...in loop to show all the elements stored in the people array.
+Use console.log to show the output.
+
+
+Solution:
+const people = ["Adam", "Eve", "Sam"];
+for (const index in people) {
+  console.log(people[index]);
+}
+
+5) for...in loop in an object: let us go through the indexes of all elements in an object.
+
+Example 1: 
+const car = {
+  manufacturer: "Porsche",
+  model: "911",
+  fuelType: "Diesel"
+};
+
+for (const key in car) {
+  console.log(key);
+}
+
+//used, for...in loop to show the keys of all the properties of the car object as strings.
+
+Example 2:
+const car = {
+  manufacturer: "Porsche",
+  model: "911",
+  fuelType: "Diesel"
+};
+
+for (const key in car) {
+  console.log(car[key]);
+}
+
+// used, for...in a loop to show the values stored in each property of the object.
