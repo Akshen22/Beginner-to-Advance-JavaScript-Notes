@@ -72,3 +72,20 @@ console.log(Array.isArray({}));                            // false
 console.log(Array.isArray("hello"));                       // false
 console.log(Array.isArray(123));                           // false
 console.log(Array.isArray(new Array("a", "b", "c", "d"))); //true
+
+Challenge:
+Define a function named checkArrayType that accepts one parameter. If the input is an array, return the string Input is an array. 
+If the input is not an array, return the string Input is not an array.
+
+Solution:
+const checkArrayType = (input) => {
+  if (Array.isArray(input)) {
+    return "Input is an array";
+  } else {
+    return "Input is not an array";
+  }
+};
+
+console.log(checkArrayType([1, 2, 3, 4, 5]));
+console.log(checkArrayType("abc"));
+console.log(checkArrayType({name: "sam"}));
