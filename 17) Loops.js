@@ -74,5 +74,6 @@ do {
 }
 while (iteration < 3);
 
-4) 
+4) for...in loop in an array:
+
   
