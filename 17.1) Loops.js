@@ -131,3 +131,17 @@ for (const key in car) {
 }
 
 // used, for...in a loop to show the values stored in each property of the object.
+
+Challenge:
+Use a for...in loop to show all the values stored in each property of the person object.
+Use console.log to print the output.
+
+Solution:
+const person = {
+  fullName: "Adam Smith",
+  age: 37,
+  isAdmin: true
+};
+for (const key in person) {
+  console.log(person[key]);
+}
