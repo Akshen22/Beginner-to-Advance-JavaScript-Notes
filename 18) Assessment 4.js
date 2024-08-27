@@ -41,4 +41,18 @@ const getGrade = (score, name) => {
 };
 
 3) Build Pizza Price Calculator:
+function priceCalculator(menu, order) {
+  
+  const total_veggie_pizza_cost = menu["veggie_pizza"] * order["veggie_pizza"];
+  
+  const total_chicken_pizza_cost = menu["chicken_pizza"] * order["chicken_pizza"];
+  
+  const total_cookies_cost = menu["chocolate_cookie"] * order["chocolate_cookie"];
+  
+  const total_shake_cost = menu["vanilla_shake"] * order["vanilla_shake"];
 
+  const total_order_cost = total_veggie_pizza_cost + total_chicken_pizza_cost + total_cookies_cost + total_shake_cost;
+
+  console.log(`Total cost of your order is ${total_order_cost}`);
+
+};
