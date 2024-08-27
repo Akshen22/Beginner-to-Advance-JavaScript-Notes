@@ -145,3 +145,28 @@ const person = {
 for (const key in person) {
   console.log(person[key]);
 }
+
+6) for...of loop: used to go through and access each value directly in an iterable, like an array.
+
+Example:
+const names = ["Raj", "Rajiv", "Rajvir"];
+for (const name of names) 
+{
+  console.log(name);
+}
+
+Challenge:
+Use a for...of loop to print all the values of the fruits array.
+Use console.log to print the output.
+
+Solution:
+const fruits = [
+  "Apple",
+  "Orange",
+  "Banana"
+]
+
+for (const name of fruits)
+{
+  console.log(name);
+}
