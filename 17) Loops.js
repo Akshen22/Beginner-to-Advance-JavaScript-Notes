@@ -74,6 +74,21 @@ do {
 }
 while (iteration < 3);
 
-4) for...in loop in an array:
+4) for...in loop in an array: let us go through the indexes of all elements in an array. 
 
-  
+Example 1:
+const fruits = ["Mango", "Apple", "Banana"];
+for (const index in fruits) {
+  console.log(index);
+}
+
+//Shows the index (or position) of each item in the array.
+
+//Note that the value of index is always a string containing the index number.
+//We can also use the for...in loop to show all the elements of the array; 
+
+Example 2:
+const fruits = ["Mango", "Apple", "Banana"];
+for (const index in fruits) {
+  console.log(fruits[index]);
+}
