@@ -28,3 +28,16 @@ Use Array.from() to create an array. This array should be of length 5. It should
 Display the array on the console.
 
 Solution:
+const vowels = {
+  0: "a",
+  1: "e",
+  2: "i",
+  3: "o",
+  4: "u",
+  length: 5
+}
+
+const vowelsArray = Array.from(vowels);
+console.log(vowelsArray)
+
+7) 
