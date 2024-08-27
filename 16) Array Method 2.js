@@ -59,9 +59,6 @@ const evenNumbers = [2, 4, 6];
 const oddNumbers = evenNumbers.map((number) => number + 1);
 console.log(oddNumbers);
 
-* The map() method returns an array, while forEach() does not. 
-  Knowing this distinction is helpful when you choose the right method for your task.
-
 c) Challenge:
 Create a function doubledNumbers which accepts the array numbers as a parameter and returns a new array which has all the numbers multiplied by 2.
 Log the resulting array to the console.
@@ -72,5 +69,10 @@ const numbers = [1, 2, 3, 4, 5];
 doubleNumbers = numbers.map((number => number * 2));
 
 console.log(doubleNumbers);
+
+* The forEach() method is used to loop through array elements. 
+  It runs the same function on each element. It doesn't change the given array and returns undefined.
+* The map() method also iterates through array elements. It applies a function to each element. 
+  It creates a new array with the modified elements, and returns the new array.
 
 3) 
