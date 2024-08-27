@@ -143,6 +143,7 @@ console.log(shortNames);
 
 5) Create Arrays from iterables or array-like objects: Array.from()
 
+Example 1:
 // Converting String to Array
 const string = 'hello';
 const newArray = Array.from(string);
@@ -152,3 +153,11 @@ console.log(newArray); // Output: ['h', 'e', 'l', 'l', 'o']
 const numberArray = "1234";
 const doubled = Array.from(numberArray, num => Number(num) * 2);
 console.log(doubled); // Output: [2, 4, 6, 8]
+
+Example 2:
+const convertToArrayAndTriple = (string) => {
+  return Array.from(string, number => Number(number)*3)
+};
+
+console.log(convertToArrayAndTriple("123"));
+console.log(convertToArrayAndTriple("1593"));
