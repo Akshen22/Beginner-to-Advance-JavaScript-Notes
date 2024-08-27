@@ -56,3 +56,20 @@ function priceCalculator(menu, order) {
   console.log(`Total cost of your order is ${total_order_cost}`);
 
 };
+
+4) Greetings:
+Create a function greetings that accepts two parameters a string message and a function callback.
+The callback should always be console.log. If the function is not console.log then log to the console: "Provide correct callback."
+Else, greetings should call callback function with the message as argument.
+
+Solution:
+const greetings = (message, callback) => {
+  if (callback === console.log) {
+    return callback(message);
+  }
+  else {
+    console.log(`Provide correct callback.`)
+  }
+};
+
+5) Addition in Array:
