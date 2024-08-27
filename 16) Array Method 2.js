@@ -62,3 +62,15 @@ console.log(oddNumbers);
 * The map() method returns an array, while forEach() does not. 
   Knowing this distinction is helpful when you choose the right method for your task.
 
+c) Challenge:
+Create a function doubledNumbers which accepts the array numbers as a parameter and returns a new array which has all the numbers multiplied by 2.
+Log the resulting array to the console.
+
+Solution:
+const numbers = [1, 2, 3, 4, 5];
+
+doubleNumbers = numbers.map((number => number * 2));
+
+console.log(doubleNumbers);
+
+3) 
