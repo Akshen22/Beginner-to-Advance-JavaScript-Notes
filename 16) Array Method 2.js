@@ -141,4 +141,4 @@ const names = ["Adam", "Eve", "Oliver", "Sam"];
 const shortNames = names.filter(names => names.length<5);
 console.log(shortNames);
 
-5) 
+5) Create Arrays from iterables or array like objects: Array.from()
