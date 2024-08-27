@@ -17,7 +17,7 @@ fruits.forEach(fruit => displayFruit(fruit));
 
 fruits.forEach(fruit => displayFruits(fruit));
 
-b) Method B:
+b) Method B: (trick: old function name, forEach, new parameter, new console.log, new parameter, extra..)
 const fruits = ["apple", "banana", "mango", "orange"];
 fruits.forEach(fruit => console.log(`${fruit} is a fruit.`));
 fruits.forEach(fruit => console.log(`${fruit} is a tasty fruit.`));
