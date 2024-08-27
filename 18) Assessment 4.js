@@ -40,4 +40,5 @@ const getGrade = (score, name) => {
   console.log(`${name} got ${grade} grade.`);
 };
 
-3) 
+3) Build Pizza Price Calculator:
+
