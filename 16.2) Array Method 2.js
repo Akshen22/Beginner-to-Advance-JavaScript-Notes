@@ -22,11 +22,12 @@ const oceans = {
 const oceansArray = Array.from(oceans);
 console.log(oceansArray);
 
-Challenge:
+* Challenge 1:
 Use Array.from() to create an array. This array should be of length 5. It should consist of all the vowels, a, e, i, o, u.
 Display the array on the console.
 
 Solution:
+a) Method 1:
 const vowels = {
   0: "a",
   1: "e",
@@ -39,4 +40,35 @@ const vowels = {
 const vowelsArray = Array.from(vowels);
 console.log(vowelsArray)
 
-7) 
+b) Method 2:
+const string = "aeiou";
+const vowel = (string) => {
+  return Array.from(string, (vowel) => `${vowel}`);
+};
+console.log(vowel(string));
+
+* Challenge 2:
+You are developing a text-processing utility for a new language-learning app. 
+The app needs a function to convert a given string into an array of letters, where each letter is prefixed with Letter - . 
+You have been tasked with implementing this by updating the function generateText.
+
+Solution: 
+const string = "HelloWorld";
+
+const generateText = (string) => {
+  return Array.from(string, (letter) => `Letter - ${letter}`);
+};
+
+console.log(generateText(string));
+
+7) isArray() method: a built-in function determining whether a given value is an array.
+It returns true if the value is an array, and false otherwise.
+
+syntax: Array.isArray(value)  
+
+Example: 
+console.log(Array.isArray([1, 2, 3]));                     // true
+console.log(Array.isArray({}));                            // false
+console.log(Array.isArray("hello"));                       // false
+console.log(Array.isArray(123));                           // false
+console.log(Array.isArray(new Array("a", "b", "c", "d"))); //true
