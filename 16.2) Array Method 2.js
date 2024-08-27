@@ -21,7 +21,6 @@ const oceans = {
 
 const oceansArray = Array.from(oceans);
 console.log(oceansArray);
-};
 
 Challenge:
 Use Array.from() to create an array. This array should be of length 5. It should consist of all the vowels, a, e, i, o, u.
