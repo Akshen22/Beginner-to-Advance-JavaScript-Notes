@@ -87,3 +87,36 @@ const addThreeToArray = (numberArray) => {
   })
   console.log(newArray);
 };
+
+6) Find Sum of First and Last Elements of an Array:
+The function sumExtremes should return the sum of the first and the last elements of the given array. 
+If the array is empty, return 0.
+
+Solution:
+const sumExtremes = arr => arr.length > 0 ? arr[0] + arr[arr.length - 1] : 0;
+
+7) Get Full Name:
+The function getFullName should return a string. The returned string must join the firstName and the lastName separated by a space.
+
+If the firstName is not present, return the lastName as the full name.
+If the lastName is not present, return the firstName as the full name.
+If both firstName and lastName are not present, return an empty string, "", as the full name.
+
+Solution:
+const getFullName = person => {
+  
+  if (!person.firstName && !person.lastName) {
+    return "";
+  }
+  
+  else if (!person.firstName) {
+    return person.lastName;
+  }  
+  
+  else if (!person.lastName) {
+    return person.firstName;
+  }
+  else {
+    return `${person.firstName} ${person.lastName}`;
+  }
+}
