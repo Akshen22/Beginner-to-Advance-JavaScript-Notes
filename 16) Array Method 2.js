@@ -121,4 +121,24 @@ const pricesWithPrefix = prices.forEach(price => {
 });
 console.log(pricesWithPrefix);
 
-4) 
+4) Filter elements based on given condition:
+The filter() method creates a new array containing only certain elements from the array it is invoked on.
+filter() accepts a function as an argument. It invokes that function on each element of an array.
+
+a) Example 1:
+const numbers = [1, 2, 3, 4, 5, 6];
+const evenNumbers = numbers.filter(number => number % 2 === 0);
+console.log(evenNumbers);  
+
+In the example given above, numbers.filter(number => number % 2 === 0) returns an array that contains only those elements of numbers, 
+that returns true when passed as the argument to number => number % 2 === 0.
+
+b) Example 2:
+Use the filter() method to get all the elements in the names array whose length is less than 5 and store them in the shortNames array.
+
+Solution:
+const names = ["Adam", "Eve", "Oliver", "Sam"];
+const shortNames = names.filter(names => names.length<5);
+console.log(shortNames);
+
+5) 
