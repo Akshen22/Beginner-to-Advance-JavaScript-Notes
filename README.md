@@ -215,13 +215,13 @@ Explore the HTML5 Canvas API for drawing and creating graphics and animations.
 To get started with this JavaScript syllabus, clone this repository:
 
 ```bash
-git clone https://github.com/Akshen22/JavaScript
+git clone https://github.com/Akshen22/Beginner-to-Advance-JavaScript-Notes.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd JavaScript
+cd Beginner-to-Advance-JavaScript-Notes
 ```
 
 Open the `https://bigbinary-academy.neetocode.com/` site in your browser to start coding!
